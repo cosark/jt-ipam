@@ -222,6 +222,10 @@ sudo -u jtipam bash -c 'cd /opt/jt-ipam/backend; set -a; source /etc/jt-ipam/bac
   .venv/bin/python -m app.cli.bootstrap reset-mfa --username admin'
 ```
 
+## One-Click Deploy
+
+[![Deploy on RepoCloud](https://d16t0pc4846x52.cloudfront.net/deploylobe.svg)](https://repocloud.io/details/JT-IPAM/)
+
 ## TLS / HTTPS
 
 HTTPS is mandatory; pick one mode via `BACKEND_TLS_MODE` in `/etc/jt-ipam/backend.env`.
